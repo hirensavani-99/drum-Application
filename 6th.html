@@ -1,0 +1,82 @@
+<!-- This is the html for the page -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="6th.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS Fun Sounds</title>
+</head>
+
+<body>
+    <!--   we are create a main div with drums class in it which has a attribute named data-key -->
+    <div class="main">
+        <div class="logo">
+            Drum it up!
+        </div>
+        <br />
+        <div class="drums">
+            <!--     the number assigned to data-key is a code for a particular key on keyboard -->
+            <div class="drum " data-key="65">
+                <span>PRESS</span><br />
+                <kbd>A</kbd>
+            </div>
+            
+            <div class="drum" data-key="83">
+                <span>PRESS</span><br />
+                <kbd>S</kbd>
+            </div>
+            <div class="drum" data-key="68">
+                <span>PRESS</span><br />
+                <kbd>D</kbd>
+            </div>
+            <div class="drum" data-key="70">
+                <span>PRESS</span><br />
+                <kbd>F</kbd>
+            </div>
+            <div class="drum" data-key="71">
+                <span>PRESS</span><br />
+                <kbd>G</kbd>
+            </div>
+            <div class="drum" data-key="72">
+                <span>PRESS</span><br />
+                <kbd>H</kbd>
+            </div>
+            <div class="drum" data-key="74">
+                <span>PRESS</span><br />
+                <kbd>J</kbd>
+            </div>
+            <div class="drum" data-key="75">
+                <span>PRESS</span><br />
+                <kbd>K</kbd>
+            </div>
+            <div class="drum" data-key="76">
+                <span>PRESS</span><br />
+                <kbd>L</kbd>
+            </div>
+
+        </div>
+
+        <div class="footer">
+            A fun project by Hiren savani
+        </div>
+    </div>
+    <!--   here we have some audio tags with the same data-key attr using same keycode values -->
+    <audio data-key="65" src="w_1.wav"></audio>
+    <audio data-key="83" src="w_2.wav"></audio>
+    <audio data-key="68" src="w_3.wav"></audio>
+    <audio data-key="70" src="w_4.wav"></audio>
+    <audio data-key="71" src="w_5.wav"></audio>
+    <audio data-key="72" src="w_6.wav"></audio>
+    <audio data-key="74" src="w_7.wav"></audio>
+    <audio data-key="75" src="w_8.wav"></audio>
+    <audio data-key="76" src="w_9.wav"></audio>
+
+</body>
+
+
+<script src="6th.js"></script>
+
+</html>
